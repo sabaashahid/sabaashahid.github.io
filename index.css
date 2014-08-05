@@ -1,0 +1,141 @@
+.blerb
+{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body { text-align: center; }
+
+#sabaa 
+{
+  width: 115px;
+  height: 115px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(images/sabaa.jpg) no-repeat;
+  box-shadow: inset 0 0 10px #000000;
+}
+h1
+{
+  font-family: 'ubuntu', sans-serif;
+  font-size: 3.3em;
+}
+
+html, body
+{
+  width:100%;
+  margin-left:0px;
+  margin-top:-10px;
+}
+header
+{
+  background: url(images/grey_wash_wall.png);
+  color: white;
+  width:100%;
+  padding-bottom:30px;
+  box-shadow: inset 0 0 20px #000000;
+}
+
+footer 
+{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sabaa, header
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1160px)
+{
+  .blerb
+  {
+    position: relative;
+    top: 40px;
+    display:inline-block;
+    margin:20px;
+  } 
+
+  #projects
+  {
+    top:19px;
+    position:relative;
+  }
+
+  footer
+  {
+    position: relative;
+    top: 70px;
+  }
+}
+
+@media screen and (min-width: 890px)
+{
+
+  .header
+  {
+    display:inline-block;
+    margin:20px;
+  } 
+
+  #sabaa
+  {
+    position:relative;
+    top:50px;
+  }
+}
+ 
+@media screen and (max-width: 889px)
+{
+  #sabaa
+  {
+    position:relative;
+    top:30px;
+  }
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) 
+{
+  header
+  {
+    background: url(images/grey_wash_wall_@2X.png);
+    color: white;
+    width:100%;
+    padding-bottom:30px;
+    box-shadow: inset 0 0 40px #000000;
+  }
+  #sabaa
+  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1
+  {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 8em;
+    text-align:center;
+  }
+
+  .blerb
+  {
+    display:block;
+    margin:40px;
+    width:auto;
+  }
+
+
+  content, footer {font-size: 4em;}
+
+  footer { width: auto; margin: auto; }
+}
